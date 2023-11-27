@@ -7,7 +7,7 @@ export default function Home() {
   const [company, setCompany] = useState("");
   const [email, setEmail] = useState("");
 
-  const url = "http://jsonplaceholder.typicode.com/users";
+  const url = "htts://jsonplaceholder.typicode.com/users";
 
   const getData = async () => {
     console.log("async");
